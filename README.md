@@ -7,7 +7,7 @@
 - 🌐 **Website Navigation Assistant** - Helps users navigate humboldt.edu/research with natural language queries
 - 🤖 **24/7 Availability** - Provides instant answers to research-related questions anytime
 - 📚 **Document Processing** - Accesses and processes university website content and resources
-- 💬 **Natural Language Processing** - Understands complex research procedure questions
+- 💬 **Natural Language Processing** - Friendly and conversation assistant understands complex research procedure questions
 - 📊 **Staff Workload Reduction** - Automates responses to routine inquiries
 - 🎯 **Smart Routing** - Directs users to appropriate sections and escalates when needed
 - 📈 **Usage Analytics** - Identifies common question patterns for website improvement
