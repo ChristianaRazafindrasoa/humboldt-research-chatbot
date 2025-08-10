@@ -101,48 +101,7 @@ if not df.empty:
                 st.write(common_questions)
         else:
             st.write("No queries available for analysis")
-    
-    # Popular topics
-    # st.subheader("Popular Topics")
-    # topics = {
-    #     'Policy': ['policy', 'policies', 'rule', 'rules', 'guideline'],
-    #     'Contact': ['contact', 'email', 'phone', 'call', 'reach'],
-    #     'Schedule': ['schedule', 'time', 'date', 'when', 'deadline'],
-    #     'General': []
-    # }
-    
-    # topic_counts = {topic: 0 for topic in topics}
-    # for query in df['query'].tolist():
-    #     query_lower = query.lower()
-    #     matched = False
-    #     for topic, keywords in topics.items():
-    #         if topic == 'General':
-    #             continue
-    #         if any(keyword in query_lower for keyword in keywords):
-    #             topic_counts[topic] += 1
-    #             matched = True
-    #             break
-    #     if not matched:
-    #         topic_counts['General'] += 1
-    
-    # sorted_topics = sorted(topic_counts.items(), key=lambda x: x[1], reverse=True)[:3]
-    # for i, (topic, count) in enumerate(sorted_topics, 1):
-    #     with st.expander(f"**{i}.** {topic} ({count} queries)"):
-    #         if topic == 'General':
-    #             st.write("Queries that don't match specific keywords")
-    #         else:
-    #             st.write(f"Keywords: {', '.join(topics[topic])}")
-    
 
-    
-    # # Remaining queries dropdown
-    # remaining_queries = [q for q, _ in query_counts.most_common()[3:]]
-    # if remaining_queries:
-    #     selected_query = st.selectbox("Other Queries", ["Select a query..."] + remaining_queries)
-    #     if selected_query != "Select a query...":
-    #         count = query_counts[selected_query]
-    #         st.write(f"**Query:** {selected_query} ({count} times)")
-    
     st.subheader("Recent Chats (10)")
     col1, col2, _ , _ = st.columns([1, 1, 1, 1])
     with col1:
