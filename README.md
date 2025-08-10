@@ -42,7 +42,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ChristianaRazafindrasoa/humboldt-research-chatbot
    cd humbolt-research-chatbot
    ```
 
@@ -52,10 +52,7 @@
    ```
 
 3. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your AWS credentials and configuration
-   ```
+   Create .env with your AWS credentials and configuration
 
 4. **Run the application**
    ```bash
